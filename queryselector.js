@@ -27,10 +27,5 @@ console.log(atags)
 const element = document.querySelectorAll('[data-target]')
 console.log(element)
 // 8. Select all elements where the data-target attribute equals "#false"
-const element = document.querySelectorAll('[data-target='#false']')
+const element = document.querySelectorAll('[data-target="#false"]')
 console.log(element)
-
-// const newItem = document.createElement(`innerHTML`)
-// newItem.innerText="Hello"
-// console.log(newItem)
-
